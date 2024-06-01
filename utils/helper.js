@@ -122,9 +122,10 @@ async function getGitRepo() {
     const branch = execSync("git rev-parse --abbrev-ref HEAD", {
       encoding: "utf-8",
     }).trim();
-    const signingKey = execSync("git config --get user.signingkey")
-      .toString()
-      .trim();
+    const signingKey =
+      undefined; /* execSync("git config --get user.signingkey")
+    .toString()
+    .trim(); */
     // Extract username from GitHub remote URL
     const usernameMatch = remoteUrl.match(/github\.com[:/](\w+[-_]?\w+)/);
     const repoName = remoteUrl
