@@ -1,14 +1,14 @@
 {
-  "signer": "0x726A5786679330a36E87001126AAEbfe81F525eE",
-  "approval": null,
+  "signer": "0x72e354c1B81096983455Ff33DB0727B06C7A490B",
+  "approval": "0xc1edd7b43fae54405a294fad32dc34bdce33e1b9fbc71a1c60d6e2f4d18ccd6329ea7c86180eeca851d6cd5d6d97fa3b4d56586b75a7edfc96123cb4b840fe5d1b",
   "records": {
-    "contenthash": "ipfs://QmSq8nvro3qVB5KmwRxGrhxij75t3thvLjX7eGVSzYuZw1",
+    "contenthash": "ipfs://bafybeig37qv2pjjpoebdqrbkmzararqtd664njrqgp3zllamfzmxaopi3e",
     "address": {
-      "eth": null
+      "eth": "0xC7c7D9d19069312918147905e20b003D3B3B1E35"
     },
     "text": {
-      "avatar": null
+      "avatar": "https://pbs.twimg.com/profile_images/1522426787514486786/m3FtSqqX_400x400.jpg"
     }
   },
-  "githubid": "namesys-eth"
+  "githubid": "philogicae"
 }

@@ -565,14 +565,14 @@ export async function sign() {
         let _container = `.well-known/eth/dev3/${detectedUser}`;
         if (existsSync(_container)) {
           // Delete .well-known/eth/dev3/user/
-          execSync(`rm -r ${_container}/*`);
+          execSync(`rm -rf ${_container}/*`);
         } else {
           // Create .well-known/eth/dev3/user/
           execSync(`mkdir -p ${_container}`);
         }
         // Copy Records to .well-known
         if (existsSync("records")) {
-          execSync(`cp -r records/* ${_container} && rm -r records`);
+          execSync(`cp -r records/* ${_container} && rm -rf records`);
         }
         resolve(true);
       });
